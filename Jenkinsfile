@@ -19,6 +19,9 @@ pipeline {
         }
     }
     post {
+        always {
+            deleteDir()
+        }
         failure {
                 mail to: 'remco@zuijlen.eu', subject: "Failed Pipeline: ${currentBuild.fullDisplayName}", body: "Something is wrong with ${env.BUILD_URL}"
         }
