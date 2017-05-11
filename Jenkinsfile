@@ -1,10 +1,6 @@
 pipeline {
     agent any 
 
-    failure {
-        mail to: 'remco@zuijlen.eu', subject: "Failed Pipeline: ${currentBuild.fullDisplayName}", body: "Something is wrong with ${env.BUILD_URL}"
-    }
-
     stages {
         stage('Build') { 
             steps { 
@@ -20,6 +16,11 @@ pipeline {
             steps {
                 sh './deploy.sh'
             }
+        }
+    }
+    post {
+        failure {
+                mail to: 'remco@zuijlen.eu', subject: "Failed Pipeline: ${currentBuild.fullDisplayName}", body: "Something is wrong with ${env.BUILD_URL}"
         }
     }
 }
