@@ -23,10 +23,9 @@ description: >- # this means to ignore newlines until "baseurl:"
    als ik wil.
    En dat komt gewoon goed op de site.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://testtest.zuijlen.eu" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: remco72
 github_username:  remcovz
-host: colo2.zuijlen.eu
 
 # Build settings
 markdown: kramdown
