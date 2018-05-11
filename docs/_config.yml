@@ -31,7 +31,7 @@ host: colo2.zuijlen.eu
 # Build settings
 markdown: kramdown
 #theme: minima
-theme: jekyll-theme-cayman
+theme: jekyll-theme-architect
 plugins:
 - jekyll-feed
 - jekyll-redirect-from
