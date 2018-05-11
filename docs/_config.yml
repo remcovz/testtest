@@ -33,14 +33,14 @@ markdown: kramdown
 #theme: minima
 theme: jekyll-theme-cayman
 plugins:
-  - jekyll-feed
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-avatar
-  - jemoji
-  - jekyll-mentions
-  - jekyll-include-cache
+- jekyll-feed
+- jekyll-redirect-from
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-avatar
+- jemoji
+- jekyll-mentions
+- jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
