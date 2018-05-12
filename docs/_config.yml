@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: My Jekyll Site 
-email: remco@zuijlen.eu
+email: github@zuijlen.eu
 description: >- # this means to ignore newlines until "baseurl:"
    Hier staat een verhaaltje dat ik neer kan zetten. Dit staat in _config.yml
    geconfigureerd. Dit kan ik over meerdere 
@@ -32,21 +32,21 @@ markdown: kramdown
 theme: minima
 #theme: jekyll-theme-architect
 #plugins:
-#- jekyll-feed
-#- jekyll-redirect-from
-#- jekyll-seo-tag
-#- jekyll-sitemap
-#- jekyll-avatar
-#- jemoji
-#- jekyll-mentions
-#- jekyll-include-cache
+- jekyll-feed
+- jekyll-redirect-from
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-avatar
+- jemoji
+- jekyll-mentions
+- jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
-#   - Gemfile
-#   - Gemfile.lock
+   - Gemfile
+   - Gemfile.lock
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
