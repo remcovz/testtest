@@ -28,8 +28,7 @@ twitter_username: remco72
 github_username:  remcovz
 timezone: Europe/Amsterdam
 collections:
-  albums:
-    output: true
+- albums
 
 # Build settings
 markdown: kramdown
