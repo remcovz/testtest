@@ -1,7 +1,7 @@
 ---
 title: "Collections Demo"
-date: 2018-05-13 23:40:00 +0200
-category: test collections
+date: 2018-05-14 00:10:00 +0200
+category: collections
 tags: test collections
 layout: post
 ---
