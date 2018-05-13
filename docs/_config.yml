@@ -28,7 +28,7 @@ twitter_username: remco72
 github_username:  remcovz
 timezone: Europe/Amsterdam
 collections:
-  my_collection:
+  albums:
     output: true
 
 # Build settings
