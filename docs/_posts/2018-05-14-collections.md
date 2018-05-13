@@ -2,7 +2,7 @@
 title: "Collections Demo"
 date: 2018-05-14 00:10:00 +0200
 category: collections
-tags: test collections
+tags: [test, collections]
 layout: post
 ---
 {% for album in site.albums %}
