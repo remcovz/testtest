@@ -1,12 +1,12 @@
 ---
-title: "Github Variables"
+title: "Site Variables"
 category: test
 tags: test
 layout: page
 ---
 
-| Variable | Value |
-| ------ | ------- |
-{% for item in site.github -%}
-| {{ item[0] }} | {{ item[1] }} |
-{% endfor %}
+Site generated: <b>{{ site.time }}</b>
+Pages: <b>{{ site.pages }}</b>
+Posts: <b>{{ site.posts }}</b>
+Url: <b>{{ site.url }}</b>
+
