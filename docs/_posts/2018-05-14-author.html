@@ -1,0 +1,15 @@
+---
+title: "Data Files - Accessing a specific author"
+date: 2018-05-14 23:52:00 +0200
+category: [test]
+tags: [test]
+layout: post
+author: dave
+---
+{% assign author = site.data.people[page.author] %}
+<a rel="author"
+  href="https://twitter.com/{{ author.twitter }}"
+  title="{{ author.name }}">
+    {{ author.name }}
+</a>
+
