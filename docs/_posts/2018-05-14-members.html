@@ -1,0 +1,19 @@
+---
+title: "Data Files"
+date: 2018-05-14 23:28:00 +0200
+category: [test]
+tags: [test]
+layout: post
+---
+<h1>Members</h1>
+<ul>
+{% for member in site.data.members %}
+  <li>
+    <a href="https://github.com/{{ member.github }}">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
+
