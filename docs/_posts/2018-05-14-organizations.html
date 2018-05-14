@@ -1,0 +1,19 @@
+---
+title: "Data Files - Organizations"
+date: 2018-05-14 23:43:00 +0200
+category: [test]
+tags: [test]
+layout: post
+---
+<ul>
+{% for org_hash in site.data.orgs %}
+{% assign org = org_hash[1] %}
+  <li>
+    <a href="https://github.com/{{ org.username }}">
+      {{ org.name }}
+    </a>
+    ({{ org.members | size }} members)
+  </li>
+{% endfor %}
+</ul>
+
