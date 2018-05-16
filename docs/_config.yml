@@ -20,11 +20,10 @@ defaults:
       path: "assets/img"
     values:
       image: true
-paginate: 5
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-architect
 plugins:
 - jekyll-feed
 - jekyll-redirect-from
