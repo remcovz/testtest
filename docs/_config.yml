@@ -11,6 +11,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://testtest.zuijlen.eu" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: remco72
 github_username:  remcovz
+product_name: "Remco's website"
 timezone: Europe/Amsterdam
 collections:
   albums:
@@ -23,7 +24,9 @@ defaults:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-architect
+encoding: UTF-8
+#theme: jekyll-theme-architect
+theme: jekyll-theme-dinky
 plugins:
 - jekyll-feed
 - jekyll-redirect-from
@@ -37,14 +40,5 @@ sass:
   sass_dir: _sass
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
 exclude:
-   - Gemfile
-   - Gemfile.lock
    - CNAME
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/

@@ -1,0 +1,20 @@
+---
+title: "Includes"
+date: 2018-05-16 23:03:00 +0200
+category: test
+tags: test
+layout: post
+---
+<h2>Passing parameters to includes</h2>
+{% include note.html content="This is my sample note." %}
+
+<h2>Passing parameter variables to includes</h2>
+{% capture download_note %}
+The latest version of {{ site.product_name }} is now available.
+{% endcapture %}
+{% include note.html content=download_note %}
+
+<h2>Passing references to YAML files as parameter values</h2>
+{% include spotlight.html participants=site.data.profiles %}
+
+
