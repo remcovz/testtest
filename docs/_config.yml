@@ -13,6 +13,7 @@ twitter_username: remco72
 github_username:  remcovz
 product_name: "Remco's website"
 timezone: Europe/Amsterdam
+paginate: 5
 collections:
   albums:
     output: true
